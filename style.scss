@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: monospace;
+}
+
+.parallax {
+    min-height: 100vh;
+    background-image: url("img/img_1.jpg");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    height: 100vh;
+    background-color: black;
+    color: rgb(230, 226, 207);
+    font-size: 15px;
+    text-align: center;
+}
